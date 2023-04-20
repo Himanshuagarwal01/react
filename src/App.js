@@ -7,6 +7,8 @@ import Img from "./component/Img";
 import Formatname from "./component/EmbeddingexpInjsx";
 import Displaydata from "./component/Displayingdata";
 import Conditionalrendering from "./component/Conditionalrendering";
+import Todaydate from "./component/Date";
+
 function MyApp(){
   return (
   <>
@@ -18,6 +20,7 @@ function MyApp(){
   <Formatname/>
   <Displaydata/>
   <Conditionalrendering/>
+  <Todaydate/>
  
 
 </>

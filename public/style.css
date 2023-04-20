@@ -6,7 +6,7 @@ border-radius: 50%;
 }
 
 .hawamahal{
-display: block;
+display: inline-block;
 }
 
 .texttt{
@@ -21,9 +21,13 @@ display: block;
     width: 45vw;
     height:50vh;
     box-shadow: 18px 9px 93px black;
+    display: inline-block;
    
 }
+.name{
 
+    display: inline-block;
+}
 .germanshepard{
    padding-left: 09rem;
 }
@@ -31,9 +35,18 @@ display: block;
 .green {
     background-color: green;
     text-align: center;
+    /* height: 20vh; */
+    width: 50vw;
+    font-size: 60px;
+   display:inline-block;
+    
 }
 
 .aqua{
     background-color: aqua;
     text-align: center;
+    /* height: 20vh; */
+    width: 50vw;
+    font-size: 60px;
+   display:inline-block;
 }
