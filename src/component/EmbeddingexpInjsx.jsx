@@ -11,7 +11,7 @@ function Formatuser(){
 
     return (
         <>
-        <h1>
+        <h1 className="namee">
             hello,{addname()}
         </h1>
         </>

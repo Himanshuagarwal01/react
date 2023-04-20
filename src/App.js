@@ -5,6 +5,7 @@ import Aboutpage from "./component/Aboutpage";
 import Adding from "./component/Adding";
 import Img from "./component/Img";
 import Formatname from "./component/EmbeddingexpInjsx";
+import Displaydata from "./component/Displayingdata";
 function MyApp(){
   return (
   <>
@@ -14,6 +15,7 @@ function MyApp(){
   <Adding/>
   <Img/>
   <Formatname/>
+  <Displaydata/>
  
 
 </>

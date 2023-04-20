@@ -1,7 +1,29 @@
+body{
+    background-image: linear-gradient(to bottom right,rgb(58, 58, 143),rgb(217, 133, 217));
+}
 .avatar{
 border-radius: 50%;
 }
 
 .hawamahal{
 display: block;
+}
+
+.texttt{
+    color:beige;
+    align-items: center;
+    padding-left: 40px;
+}
+
+#container{
+    background-image: linear-gradient(to right,rgb(47, 40, 40),rgb(205, 24, 24));
+    display: inline-block;
+    width: 45vw;
+    height:50vh;
+    box-shadow: 18px 9px 93px black;
+   
+}
+
+.germanshepard{
+   padding-left: 09rem;
 }
