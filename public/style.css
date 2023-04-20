@@ -27,3 +27,13 @@ display: block;
 .germanshepard{
    padding-left: 09rem;
 }
+
+.green {
+    background-color: green;
+    text-align: center;
+}
+
+.aqua{
+    background-color: aqua;
+    text-align: center;
+}

@@ -6,6 +6,7 @@ import Adding from "./component/Adding";
 import Img from "./component/Img";
 import Formatname from "./component/EmbeddingexpInjsx";
 import Displaydata from "./component/Displayingdata";
+import Conditionalrendering from "./component/Conditionalrendering";
 function MyApp(){
   return (
   <>
@@ -16,6 +17,7 @@ function MyApp(){
   <Img/>
   <Formatname/>
   <Displaydata/>
+  <Conditionalrendering/>
  
 
 </>
