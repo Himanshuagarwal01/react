@@ -27,6 +27,7 @@ function Statelifestyle(){
         <>
         <div id="hooks">
         <h1>{headingText}</h1>
+        
         <input type="text" id="name"placeholder=" Enter your name"></input><br/>
         <button type="submit" style={{
             backgroundColor:isMouseover?"yellow":"white"}}
