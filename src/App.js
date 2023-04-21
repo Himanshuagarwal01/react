@@ -12,6 +12,9 @@ import Props from "./component/Props";
 import Props2 from "./component/Props2";
 import contacts from "./component/contact";
 import Cards from "./component/Cards";
+import Button2 from "./component/Button2";
+import Statelifestyle from "./component/Statelifestyle";
+
 
 const object={
   text:"I hope you enjoy learning react!",
@@ -25,13 +28,18 @@ function createcontact(contacts){
   return(
     <Cards
     id={contacts.id}
+    key={contacts.id}
     name={contacts.name}
     imageurl={contacts.imageurl}
     phone={contacts.phone}
     email={contacts.email}
     />
   ) 
-}
+};
+
+
+
+
 
 function MyApp(){
   return (
@@ -51,7 +59,8 @@ function MyApp(){
       author1={object.author}  
   />
   {contacts.map(createcontact)}
-
+  <Button2/>
+  <Statelifestyle/>
 </>
   )
 }

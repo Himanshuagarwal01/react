@@ -50,3 +50,8 @@ display: inline-block;
     font-size: 60px;
    display:inline-block;
 }
+
+#hooks{
+  background-color: #b2c074 ;
+  text-align: center;
+}
