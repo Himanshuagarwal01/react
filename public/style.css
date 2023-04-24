@@ -55,3 +55,23 @@ display: inline-block;
   background-color: #b2c074 ;
   text-align: center;
 }
+
+.form{
+    margin:auto;
+    margin-top: 5px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #59b297;
+    height:50vh;
+    width:60vw;
+}
+
+#another{
+    margin:auto;
+    margin-top: 5px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #c2e1d7;
+    height: 16vh;
+    width: 60vw;
+}
