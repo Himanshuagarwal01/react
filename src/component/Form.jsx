@@ -3,13 +3,15 @@ import React, { useState } from "react";
 function Form() {
    
   const [name, setname] = useState("");
-  const [fullname, setfullname] = useState("");
+//   const [fullname, setfullname] = useState([]);
   const [number, setnumber] = useState("");
-  const [fullnumber, setfullnumber] = useState("");
+//   const [fullnumber, setfullnumber] = useState([]);
   const [textarea, settextarea] = useState("");
-  const [fulltextarea, setfulltextarea] = useState("");
+//   const [fulltextarea, setfulltextarea] = useState([]);
   const [selectoption, setselectoption] = useState("");
-  const [fullselectoption, setfullselectoption] = useState("");
+//   const [fullselectoption, setfullselectoption] = useState([]);
+
+const [allEntry,setAllEntry]=useState([]);
 
   const handleChange = (event) => {
     setname(event.target.value);
@@ -24,14 +26,20 @@ function Form() {
   };
 
   const handleChangeselect = (event) => {
-    setselectoption                                                                                                                                                                                                                                             (event.target.value);
+    setselectoption(event.target.value);
   };
 
-  function handlesubmit() {
-    setfullname(name);
-    setfullnumber(number);
-    setfulltextarea(textarea);
-    setfullselectoption(selectoption);
+  function handlesubmit(e) {
+   e.preventDefault();
+   const newentry={name:name,number:number,textarea:textarea,selectoption:selectoption};
+
+   setAllEntry([...allEntry,newentry]);
+  
+
+//    setfullname([...fullname,newentry]);
+//    setfullnumber([...fullnumber,entryy]);
+//    setfulltextarea([...fulltextarea,entryyy]);
+//    setfullselectoption([...fullselectoption,entryyyy]);
   }
 
  
@@ -40,7 +48,7 @@ function Form() {
     <>
       <div className="form">
         <h1>Registration Form</h1>
-        <form id="forms">
+        <form id="forms" onSubmit={handlesubmit}>
           <label>Enter your name:</label>
           <br />
           <input type="text" value={name} onChange={handleChange} />
@@ -65,24 +73,35 @@ function Form() {
           value={selectoption}
           onChange={handleChangeselect}
           >select course
+          <option value="Course"></option>
             <option value="Mtech">Mtech</option>
             <option value="MCA">MCA</option>
             <option value="Btech">Btech</option>
             <option value="BCA">BCA</option>
           </select>
           <br />
-          <button type="button" onClick={handlesubmit} >
+          <button type="submit"  >
             Submit
           </button>
         </form>
       </div>
-      <div id="another">
-        <h1>Name is :{fullname}</h1>
-        <h1>Number is:{fullnumber} </h1>
-        <h1>Feedback is:{fulltextarea}</h1>
-        <h1>Course is :{fullselectoption}</h1>
-      </div>
-      {/* <Container/> */}
+     <div >
+     {
+        allEntry.map((curEle)=>{
+            return (
+                <>
+                <div id="another">
+                    <p><b>Name is :</b>{curEle.name}</p>
+                    <p><b>number is :</b>{curEle.number}</p>
+                    <p><b>feedback is:</b>{curEle.textarea}</p>
+                    <p><b>Course:</b>{curEle.selectoption}</p>
+
+                </div>
+                </>
+            )
+        })
+     }
+     </div>
 
      
     </>
