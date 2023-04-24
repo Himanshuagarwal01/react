@@ -14,6 +14,7 @@ import contacts from "./component/contact";
 import Cards from "./component/Cards";
 import Button2 from "./component/Button2";
 import Statelifestyle from "./component/Statelifestyle";
+import Form from "./component/Form";
 
 
 const object={
@@ -61,6 +62,7 @@ function MyApp(){
   {contacts.map(createcontact)}
   <Button2/>
   <Statelifestyle/>
+  <Form/>
 </>
   )
 }
