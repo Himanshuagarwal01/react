@@ -62,8 +62,8 @@ display: inline-block;
     padding-top: 2px;
     text-align: center;
     background-color: #59b297;
-    height:50vh;
-    width:60vw;
+    height: 48vh;
+    width: 72vw;
 }
 
 #another{
@@ -72,6 +72,6 @@ display: inline-block;
     padding-top: 2px;
     text-align: center;
     background-color: #c2e1d7;
-    height: 30vh;
+    height: 50vh;
     width: 60vw;
 }

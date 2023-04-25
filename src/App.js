@@ -15,6 +15,8 @@ import Cards from "./component/Cards";
 import Button2 from "./component/Button2";
 import Statelifestyle from "./component/Statelifestyle";
 import Form from "./component/Form";
+import Counter from "./component/Counter";
+import Sepcounter from "./component/Sepcounter";
 
 
 const object={
@@ -63,6 +65,8 @@ function MyApp(){
   <Button2/>
   <Statelifestyle/>
   <Form/>
+  <Counter/>
+  <Sepcounter/>
 </>
   )
 }
