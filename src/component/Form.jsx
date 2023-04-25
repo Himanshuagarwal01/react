@@ -87,14 +87,14 @@ const [allEntry,setAllEntry]=useState([]);
       </div>
      <div >
      {
-        allEntry.map((curEle)=>{
+        allEntry.map((curElee)=>{
             return (
                 <>
                 <div id="another">
-                    <p><b>Name is :</b>{curEle.name}</p>
-                    <p><b>number is :</b>{curEle.number}</p>
-                    <p><b>feedback is:</b>{curEle.textarea}</p>
-                    <p><b>Course:</b>{curEle.selectoption}</p>
+                    <p><b>Name is :</b>{curElee.name}</p>
+                    <p><b>number is :</b>{curElee.number}</p>
+                    <p><b>feedback is:</b>{curElee.textarea}</p>
+                    <p><b>Course:</b>{curElee.selectoption}</p>
 
                 </div>
                 </>
