@@ -1,4 +1,7 @@
 import React from "react";
+ 
+//this lines of code describes Containment
+// According to the Containment documentation the react use to prefare 
 
 function Splitpanel(props){
     return(

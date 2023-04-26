@@ -21,6 +21,7 @@ import Temperature from "./component/Temperature";
 import Splitpanel from "./component/Splitpanel";
 import Conttt from "./component/Conttt";
 import Chat from "./component/Chat";
+import Router from "./component/Router";
 
 const object={
   text:"I hope you enjoy learning react!",
@@ -75,8 +76,9 @@ function MyApp(){
   <Sepcounter/>
   <Temperature/>
   <Splitpanel left={<Conttt/>}
-  right={<Chat/>}
-  />
+  right={<Chat/>}/>
+  <Router/>
+  
 </>
   )
 }
