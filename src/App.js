@@ -17,7 +17,11 @@ import Statelifestyle from "./component/Statelifestyle";
 import Form from "./component/Form";
 import Counter from "./component/Counter";
 import Sepcounter from "./component/Sepcounter";
-
+import Temperature from "./component/Temperature";
+import Splitpanel from "./component/Splitpanel";
+import Conttt from "./component/Conttt";
+import Chat from "./component/Chat";
+import Router from "./component/Router";
 
 const object={
   text:"I hope you enjoy learning react!",
@@ -51,7 +55,10 @@ function MyApp(){
   <Button/>
   <Aboutpage/>
   <Adding/>
+  
   <Img/>
+  
+ 
   <Formatname/>
   <Displaydata/>
   <Conditionalrendering/>
@@ -67,6 +74,11 @@ function MyApp(){
   <Form/>
   <Counter/>
   <Sepcounter/>
+  <Temperature/>
+  <Splitpanel left={<Conttt/>}
+  right={<Chat/>}/>
+  <Router/>
+  
 </>
   )
 }

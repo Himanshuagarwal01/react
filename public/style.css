@@ -1,12 +1,11 @@
 body{
     background-image: linear-gradient(to bottom right,rgb(58, 58, 143),rgb(217, 133, 217));
 }
-.avatar{
-border-radius: 50%;
-}
+
 
 .hawamahal{
-display: inline-block;
+    /* width: 300px; */
+display:inline-block;
 }
 
 .texttt{
@@ -74,4 +73,34 @@ display: inline-block;
     background-color: #c2e1d7;
     height: 50vh;
     width: 60vw;
+}
+
+.container21{
+    margin: 89px;
+   
+    margin-top: 5px;
+    padding-top: 13px;
+    text-align: center;
+    background-color: #b25968;
+    height: 28vh;
+    width: 60vw;
+}
+
+.splitpanel{
+    display: flex;
+}
+
+.Contt{
+    width: 40vh;
+    height: 30vh;
+    background-color: beige;
+     display: inline-block;
+}
+
+.Chat{
+    width: 77vh;
+    height: 30vh;
+    background-color: rgb(226, 226, 30);
+    display: inline-block;
+
 }
