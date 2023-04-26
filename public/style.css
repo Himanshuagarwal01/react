@@ -76,11 +76,31 @@ display:inline-block;
 }
 
 .container21{
-    margin:auto;
+    margin: 89px;
+   
     margin-top: 5px;
-    padding-top: 2px;
+    padding-top: 13px;
     text-align: center;
     background-color: #b25968;
-    height: 20vh;
+    height: 28vh;
     width: 60vw;
+}
+
+.splitpanel{
+    display: flex;
+}
+
+.Contt{
+    width: 40vh;
+    height: 30vh;
+    background-color: beige;
+     display: inline-block;
+}
+
+.Chat{
+    width: 77vh;
+    height: 30vh;
+    background-color: rgb(226, 226, 30);
+    display: inline-block;
+
 }
