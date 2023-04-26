@@ -17,6 +17,7 @@ import Statelifestyle from "./component/Statelifestyle";
 import Form from "./component/Form";
 import Counter from "./component/Counter";
 import Sepcounter from "./component/Sepcounter";
+import Temperature from "./component/Temperature";
 
 
 const object={
@@ -51,7 +52,10 @@ function MyApp(){
   <Button/>
   <Aboutpage/>
   <Adding/>
+  
   <Img/>
+  
+ 
   <Formatname/>
   <Displaydata/>
   <Conditionalrendering/>
@@ -67,6 +71,7 @@ function MyApp(){
   <Form/>
   <Counter/>
   <Sepcounter/>
+  <Temperature/>
 </>
   )
 }

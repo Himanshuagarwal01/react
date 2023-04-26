@@ -1,12 +1,11 @@
 body{
     background-image: linear-gradient(to bottom right,rgb(58, 58, 143),rgb(217, 133, 217));
 }
-.avatar{
-border-radius: 50%;
-}
+
 
 .hawamahal{
-display: inline-block;
+    /* width: 300px; */
+display:inline-block;
 }
 
 .texttt{
@@ -73,5 +72,15 @@ display: inline-block;
     text-align: center;
     background-color: #c2e1d7;
     height: 50vh;
+    width: 60vw;
+}
+
+.container21{
+    margin:auto;
+    margin-top: 5px;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #b25968;
+    height: 20vh;
     width: 60vw;
 }
