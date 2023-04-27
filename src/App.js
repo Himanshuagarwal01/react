@@ -23,6 +23,7 @@ import Conttt from "./component/Conttt";
 import Chat from "./component/Chat";
 import Router from "./component/Router";
 import Accesibility from "./component/Accesibility";
+import Focus from "./component/Focus";
 
 const object={
   text:"I hope you enjoy learning react!",
@@ -80,6 +81,7 @@ function MyApp(){
   right={<Chat/>}/>
   <Router/>
   <Accesibility/>
+  <Focus/>
   
 </>
   )

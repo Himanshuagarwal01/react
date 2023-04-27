@@ -110,3 +110,9 @@ display:inline-block;
 table, th, td {
     border:3px solid rgb(230, 212, 21);
   }
+
+
+.focus{
+    text-align: center;
+    background-color: #cbe40e;
+}
