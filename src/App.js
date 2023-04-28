@@ -27,6 +27,7 @@ import Focus from "./component/Focus";
 import Usestate from "./component/Usestate";
 import UsestateArray from "./component/UsestateArray";
 import Useeffect from "./component/Useeffect";
+import Cleanup from "./component/CleanUp";
 
 
 
@@ -90,6 +91,7 @@ function MyApp(){
   <Usestate/>
   <UsestateArray/>
   <Useeffect/>
+  <Cleanup/>
   
 </>
   )

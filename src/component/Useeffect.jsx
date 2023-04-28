@@ -8,13 +8,14 @@ const Useeffect=()=>{
     })
 
     useEffect(()=>{
+        console.log(" I am inside")
         if (count>=1){
         document.title=`Chats(${count})`
     }
     else{
         document.title=`Chats`
     }
-    })
+    },[count]);
 
     console.log(" hello outside")
 
