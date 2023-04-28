@@ -24,6 +24,10 @@ import Chat from "./component/Chat";
 import Router from "./component/Router";
 import Accesibility from "./component/Accesibility";
 import Focus from "./component/Focus";
+import Usestate from "./component/Usestate";
+import UsestateArray from "./component/UsestateArray";
+
+
 
 const object={
   text:"I hope you enjoy learning react!",
@@ -82,6 +86,8 @@ function MyApp(){
   <Router/>
   <Accesibility/>
   <Focus/>
+  <Usestate/>
+  <UsestateArray/>
   
 </>
   )

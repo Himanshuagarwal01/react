@@ -114,5 +114,15 @@ table, th, td {
 
 .focus{
     text-align: center;
-    background-color: #cbe40e;
+    background-color: #83d1d0;
+    /* display: contents; */
+}
+
+a:focus ,a:active {
+    color: red;
+}
+
+a:hover{
+ 
+    color:black;
 }
