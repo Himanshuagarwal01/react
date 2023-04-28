@@ -1,6 +1,8 @@
-body{
-    background-image: linear-gradient(to bottom right,rgb(58, 58, 143),rgb(217, 133, 217));
-}
+/* body{
+    /* background-image: linear-gradient(to bottom right,rgb(58, 58, 143),rgb(217, 133, 217)); */
+    /* background-image: url(back.jpg); */
+
+/* } / */
 
 
 .hawamahal{
@@ -9,7 +11,7 @@ display:inline-block;
 }
 
 .texttt{
-    color:beige;
+    color:rgb(151, 52, 59);
     align-items: center;
     padding-left: 40px;
 }
@@ -93,7 +95,7 @@ display:inline-block;
 .Contt{
     width: 40vh;
     height: 30vh;
-    background-color: beige;
+    background-color: rgb(202, 136, 39);
      display: inline-block;
 }
 
@@ -103,4 +105,14 @@ display:inline-block;
     background-color: rgb(226, 226, 30);
     display: inline-block;
 
+}
+
+table, th, td {
+    border:3px solid rgb(230, 212, 21);
+  }
+
+
+.focus{
+    text-align: center;
+    background-color: #cbe40e;
 }
