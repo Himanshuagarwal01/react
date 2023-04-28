@@ -26,6 +26,7 @@ import Accesibility from "./component/Accesibility";
 import Focus from "./component/Focus";
 import Usestate from "./component/Usestate";
 import UsestateArray from "./component/UsestateArray";
+import Useeffect from "./component/Useeffect";
 
 
 
@@ -88,6 +89,7 @@ function MyApp(){
   <Focus/>
   <Usestate/>
   <UsestateArray/>
+  <Useeffect/>
   
 </>
   )
