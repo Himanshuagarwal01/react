@@ -28,7 +28,7 @@ import Usestate from "./component/Usestate";
 import UsestateArray from "./component/UsestateArray";
 import Useeffect from "./component/Useeffect";
 import Cleanup from "./component/CleanUp";
-
+import Api from "./component/Api";
 
 
 const object={
@@ -92,6 +92,7 @@ function MyApp(){
   <UsestateArray/>
   <Useeffect/>
   <Cleanup/>
+  <Api/>
   
 </>
   )
