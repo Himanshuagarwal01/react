@@ -5,14 +5,15 @@ const Api=(()=>{
   const [users,setuser]=useState([]);
 
   const getusers=async ()=>{
-    const promise=await fetch('https://jsonplaceholder.typicode.com/users');
+    const promise =await fetch('https://jsonplaceholder.typicode.com/users');
    
     setuser(await promise.json());
     // console.log(data);
   }
 
     useEffect(()=>{
-      getusers();
+      getusers(); 
+      
     },[])
 
     return (
@@ -23,11 +24,13 @@ const Api=(()=>{
             users.map((curEle)=>{
               return (
                 <div>
-                  <ol>{curEle.id}
+                 
+                  <ol> <h1>{curEle.id}</h1>
                   <p><strong>Name:</strong>{ curEle.name } </p>
                   <span><strong>Username:</strong>{ curEle.username }</span>
                   <span><strong>Email:</strong>{ curEle.email }</span>
                   <span><strong>Address:</strong>{ curEle.address.city }</span>
+                  
                   </ol>
                 </div>
               )
