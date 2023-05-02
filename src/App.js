@@ -31,7 +31,9 @@ import Cleanup from "./component/CleanUp";
 import Api from "./component/Api";
 import ComA from "./component/ComA";
 import Uncontrolled from "./component/Uncontrolles";
+import Usememo from "./component/Usememo";
 // import ComB from "./component/ComB";
+// import Stopwatch from "./component/Stopwatch";
 
 
 
@@ -115,6 +117,8 @@ function MyApp(){
   </Nextfname.Provider> */}
 
   <Uncontrolled/>
+  <Usememo/>
+  
   
   
   
