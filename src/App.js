@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext } from "react";
 import Div from "./component/Div"; 
 import Button from "./component/Button";
 import Aboutpage from "./component/Aboutpage";
@@ -28,8 +28,19 @@ import Usestate from "./component/Usestate";
 import UsestateArray from "./component/UsestateArray";
 import Useeffect from "./component/Useeffect";
 import Cleanup from "./component/CleanUp";
+import Api from "./component/Api";
+import ComA from "./component/ComA";
+import Uncontrolled from "./component/Uncontrolles";
+import Usememo from "./component/Usememo";
+// import ComB from "./component/ComB";
+// import Stopwatch from "./component/Stopwatch";
 
 
+
+const Firstname=createContext();
+const Lastname=createContext();
+// const Nextfname=createContext();
+// const NextLname=createContext();
 
 const object={
   text:"I hope you enjoy learning react!",
@@ -92,10 +103,30 @@ function MyApp(){
   <UsestateArray/>
   <Useeffect/>
   <Cleanup/>
+  <Api/>
+  <Firstname.Provider value={"Himanshu"}>
+    <Lastname.Provider value={"Agarwal"}>
+      <ComA/>
+    </Lastname.Provider>
+  </Firstname.Provider>
+
+  {/* <Nextfname.Provider value={"Uma Shankar"}>
+    <NextLname.Provider value={"Gupta"}>
+      <ComB/>
+    </NextLname.Provider>
+  </Nextfname.Provider> */}
+
+  <Uncontrolled/>
+  <Usememo/>
+  
+  
+  
   
 </>
   )
 }
 
 export default  MyApp;
+export {Firstname,Lastname};
+// export {Nextfname,NextLname};
 
