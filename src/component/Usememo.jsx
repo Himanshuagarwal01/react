@@ -14,7 +14,7 @@ const Usememo=()=>{
   return(
     <div>
       <h1>Learning useMemo</h1>
-      {multiplication}<br/>
+      {multiplication}
       <button onClick={()=>setadd(add+1)}>Adding</button>
       <span>{add}</span>
       <br/>
@@ -25,3 +25,8 @@ const Usememo=()=>{
 }
 
 export default Usememo;
+
+//syntax-->
+//         const cachedValue = useMemo(calculateValue, dependencies)
+
+// when you recall the same function with same dependencies then it call the function from the cached memory to enhance the performance of the app.
