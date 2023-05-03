@@ -6,7 +6,7 @@ const Usememo=()=>{
   const[minus,setminus]=useState(100);
 
   const multiplication=useMemo(function multiply(){
-    console.log("*************");
+    // console.log("*************");
     return add*10;
 
   },[add])
@@ -14,7 +14,7 @@ const Usememo=()=>{
   return(
     <div>
       <h1>Learning useMemo</h1>
-      {multiplication}
+      {multiplication}<br/>
       <button onClick={()=>setadd(add+1)}>Adding</button>
       <span>{add}</span>
       <br/>
