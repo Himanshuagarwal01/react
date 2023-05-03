@@ -34,6 +34,8 @@ import Uncontrolled from "./component/Uncontrolles";
 import Usememo from "./component/Usememo";
 // import ComB from "./component/ComB";
 // import Stopwatch from "./component/Stopwatch";
+import Propsrender from "./component/Propsrender";
+
 
 
 
@@ -118,7 +120,9 @@ function MyApp(){
 
   <Uncontrolled/>
   <Usememo/>
-  
+  <Propsrender/>
+
+
   
   
   

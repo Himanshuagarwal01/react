@@ -6,7 +6,7 @@ const Usememo=()=>{
   const[minus,setminus]=useState(100);
 
   const multiplication=useMemo(function multiply(){
-    console.log("*************");
+    // console.log("*************");
     return add*10;
 
   },[add])
@@ -25,3 +25,8 @@ const Usememo=()=>{
 }
 
 export default Usememo;
+
+//syntax-->
+//         const cachedValue = useMemo(calculateValue, dependencies)
+
+// when you recall the same function with same dependencies then it call the function from the cached memory to enhance the performance of the app.
