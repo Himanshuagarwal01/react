@@ -16,8 +16,17 @@ const reducer = (state, action) => {
 
   switch(action.type){
     case "INCREMENT": 
+   
     state.age=state.age + 1;
-    if (state.age<18){
+    if(state.age<0){
+      return {
+        age:0,
+        teen:"Child",
+        
+      };
+      
+    }
+    else if (state.age<18){
       return{
         age: state.age,
         teen :"Child",
@@ -27,13 +36,20 @@ const reducer = (state, action) => {
       return {
         age:state.age,
         teen:"Adult"
-      }
+      };
+      
     }
      
      
     case "DECREMENT": 
     state.age=state.age - 1;
-    if (state.age>17){
+    if(state.age<0){
+      return {
+        age:0,
+        teen:"Child"
+      };
+    }
+    else if (state.age>17){
       return{
         age: state.age,
         teen :"Adult",
@@ -70,7 +86,7 @@ const Usereducer = () => {
 
   return (
     <>
-      <p>{state.teen}{state.age}</p>
+      <p>{state.teen} {state.age}</p>
       <div>
         <button onClick={() => dispatch({type:"INCREMENT"})}>Inc</button>
         <button onClick={() => dispatch({type:"DECREMENT"})}>Dec</button>

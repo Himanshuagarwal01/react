@@ -35,8 +35,10 @@ import Usememo from "./component/Usememo";
 // import ComB from "./component/ComB";
 // import Stopwatch from "./component/Stopwatch";
 import Propsrender from "./component/Propsrender";
-import Usereducer2 from "./component/Usereducer2";
+// import Usereducer2 from "./component/Usereducer2";
 import Usereducer from "./component/Usereducer";
+// import Usereducer2 from "./component/Usereducer2";
+import Usecallback from "./component/Usecallback";
 
 
 
@@ -123,9 +125,9 @@ function MyApp(){
   <Uncontrolled/>
   <Usememo/>
   <Propsrender/>
-  <Usereducer2/>
+  {/* <Usereducer2/> */}
   <Usereducer/>
-
+  <Usecallback/>
   
   
   
