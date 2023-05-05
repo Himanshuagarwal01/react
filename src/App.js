@@ -37,8 +37,10 @@ import Usememo from "./component/Usememo";
 import Propsrender from "./component/Propsrender";
 
 import Usereducer from "./component/Usereducer";
+
 // import Usereducer2 from "./component/Usereducer2";
 import Usecallback from "./component/Usecallback";
+import Stopwatch from "./component/Stopwatch";
 
 
 
@@ -129,7 +131,7 @@ function MyApp(){
   
   <Usereducer/>
   <Usecallback/>
-  
+  <Stopwatch/>
   
   
 </>

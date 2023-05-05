@@ -10,6 +10,7 @@ import Ccontact from "./Ccontact";
 import Usereducer2 from "./Usereducer2";
 
 
+
 function Routers(){
     return(
         <>
@@ -37,15 +38,17 @@ function Routers(){
                     <li>
                         <Link to="/Usereducer2">Usereducer2</Link>
                     </li>
+                    
                 </ul>
             </nav>
-            <Routes>
+<Routes>
             <Route  path='/About' Component={About}>
             </Route>
             <Route path="/Ccontact" Component={Ccontact} > 
             </Route>
             < Route path="/Usereducer2" Component={Usereducer2}>
             </Route>
+           
             </Routes>
        
         </div>
