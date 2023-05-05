@@ -40,7 +40,8 @@ import Usereducer from "./component/Usereducer";
 
 // import Usereducer2 from "./component/Usereducer2";
 import Usecallback from "./component/Usecallback";
-import Stopwatch from "./component/Stopwatch";
+import Customhook from "./component/Customhooks";
+
 
 
 
@@ -131,7 +132,8 @@ function MyApp(){
   
   <Usereducer/>
   <Usecallback/>
-  <Stopwatch/>
+  <Customhook/>
+ 
   
   
 </>

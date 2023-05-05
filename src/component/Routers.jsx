@@ -8,7 +8,7 @@ import {
 import About from "./About";
 import Ccontact from "./Ccontact";
 import Usereducer2 from "./Usereducer2";
-
+import Stopwatch from "./Stopwatch";
 
 
 function Routers(){
@@ -38,6 +38,9 @@ function Routers(){
                     <li>
                         <Link to="/Usereducer2">Usereducer2</Link>
                     </li>
+                    <li>
+                        <Link to="/Stopwatch">Stopwatch</Link>
+                    </li>
                     
                 </ul>
             </nav>
@@ -47,6 +50,8 @@ function Routers(){
             <Route path="/Ccontact" Component={Ccontact} > 
             </Route>
             < Route path="/Usereducer2" Component={Usereducer2}>
+            </Route>
+            < Route path="/Stopwatch" Component={Stopwatch}>
             </Route>
            
             </Routes>
