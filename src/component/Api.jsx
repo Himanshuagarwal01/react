@@ -51,5 +51,5 @@ export default Api;
 
 // by importing the react icon after installing the react icon using following command------>
 //              npm install react-icons --save
-
+//here react icons is an external package which we need to install on first time  
 //After import you need to use as an component 

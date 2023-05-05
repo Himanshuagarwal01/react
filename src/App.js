@@ -21,7 +21,7 @@ import Temperature from "./component/Temperature";
 import Splitpanel from "./component/Splitpanel";
 import Conttt from "./component/Conttt";
 import Chat from "./component/Chat";
-import Router from "./component/Router";
+import Routers from "./component/Routers";
 import Accesibility from "./component/Accesibility";
 import Focus from "./component/Focus";
 import Usestate from "./component/Usestate";
@@ -35,10 +35,13 @@ import Usememo from "./component/Usememo";
 // import ComB from "./component/ComB";
 // import Stopwatch from "./component/Stopwatch";
 import Propsrender from "./component/Propsrender";
-// import Usereducer2 from "./component/Usereducer2";
+
 import Usereducer from "./component/Usereducer";
+
 // import Usereducer2 from "./component/Usereducer2";
 import Usecallback from "./component/Usecallback";
+import Customhook from "./component/Customhooks";
+
 
 
 
@@ -76,6 +79,7 @@ function createcontact(contacts){
 function MyApp(){
   return (
   <>
+  <Routers/>
   <Div/>
   <Button/>
   <Aboutpage/>
@@ -102,7 +106,7 @@ function MyApp(){
   <Temperature/>
   <Splitpanel left={<Conttt/>}
   right={<Chat/>}/>
-  <Router/>
+  
   <Accesibility/>
   <Focus/>
   <Usestate/>
@@ -125,10 +129,11 @@ function MyApp(){
   <Uncontrolled/>
   <Usememo/>
   <Propsrender/>
-  {/* <Usereducer2/> */}
+  
   <Usereducer/>
   <Usecallback/>
-  
+  <Customhook/>
+ 
   
   
 </>

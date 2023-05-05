@@ -4,6 +4,41 @@
 
 /* } / */
 
+*{
+ margin:0px;
+ padding: 0px;
+}
+
+.nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-around;
+    align-items: baseline;
+    display: block;
+    align-content: stretch;
+}
+
+nav{
+    background-color: black;
+ 
+}
+
+nav ul li {
+ display: inline-block;
+ padding: 31px;
+
+ 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 
 .hawamahal{
     /* width: 300px; */
@@ -18,11 +53,13 @@ display:inline-block;
 
 #container{
     background-image: linear-gradient(to right,rgb(47, 40, 40),rgb(205, 24, 24));
-    display: inline-block;
+    /* display: inline-block; */
     width: 45vw;
     height:50vh;
     box-shadow: 18px 9px 93px black;
-    display: inline-block;
+    display: block;
+
+ 
    
 }
 .name{
@@ -84,7 +121,7 @@ display:inline-block;
     padding-top: 13px;
     text-align: center;
     background-color: #b25968;
-    height: 28vh;
+    height: 39vh;
     width: 60vw;
 }
 

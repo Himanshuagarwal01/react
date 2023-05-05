@@ -3,8 +3,10 @@ import React, { useReducer } from "react";
 
 // const initialstate=0;
 const reducer = (state, action) => {
-  console.log(action);
-  console.log(state.age);
+  // console.log(action);
+  // console.log(state.age);
+
+  
   // if(action.type === "INCREMENT"){
   //   return state.age + 1;
   // }
