@@ -1,4 +1,4 @@
-import { useReducer } from 'react';
+import { React,useReducer } from 'react';
 
 function reducer(state, action) {
   //this condition is called to increment the age
@@ -14,7 +14,8 @@ function reducer(state, action) {
     };
   }
 
-  throw Error('Unknown action.');
+  // throw Error('Unknown action.');
+  return state;
 }
 
 export default function Usereducer2() {
