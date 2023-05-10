@@ -62,7 +62,7 @@ const [allEntry,setAllEntry]=useState([]);
           <label>Enter the feedback:</label>
           <br />
           <textarea
-            rows="10"
+            rows="4"
             cols="30"
             value={textarea}
             onChange={handleChangetextarea}

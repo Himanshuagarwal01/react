@@ -6,7 +6,7 @@ function Adding(){
         <>
         <img src="https://picsum.photos/200/300" alt ="avtar" className="avatar"></img>
         <img src="https://picsum.photos/210/300" alt ="avtar" className="avatar"></img>
-        
+    
             
         </>
     );
