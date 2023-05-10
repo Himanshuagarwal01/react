@@ -1,5 +1,5 @@
 import React from "react";
-function Formatuser(){
+function Formatname(){
     const user={
         firstname:"himanshu",
         lastname:"agarwal"
@@ -18,4 +18,4 @@ function Formatuser(){
     );
 }
 
-export default Formatuser;
+export default Formatname;

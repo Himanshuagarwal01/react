@@ -55,7 +55,7 @@ display:inline-block;
     background-image: linear-gradient(to right,rgb(47, 40, 40),rgb(205, 24, 24));
     /* display: inline-block; */
     width: 45vw;
-    height:50vh;
+    height:78vh;
     box-shadow: 18px 9px 93px black;
     display: block;
 
@@ -67,7 +67,8 @@ display:inline-block;
     display: inline-block;
 }
 .germanshepard{
-   padding-left: 09rem;
+   
+   height:132px;
 }
 
 .green {
@@ -100,7 +101,7 @@ display:inline-block;
     padding-top: 2px;
     text-align: center;
     background-color: #59b297;
-    height: 66vh;
+    height: 332px;
     width: 72vw;
 }
 

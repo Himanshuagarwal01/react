@@ -17,7 +17,8 @@ const Customhook=()=>{
   return(
     <>
     <div className="focus">
-      <h1>{count}</h1>
+      <h1>Custom hook</h1>
+      <p>{count}</p>
       <button onClick={handleclick}>Click test</button>
     </div>
     </>
